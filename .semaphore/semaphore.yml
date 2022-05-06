@@ -15,4 +15,4 @@ blocks:
             - gradle build
 promotions:
   - name: Deploy to Heroku
-    pipeline_file: heroku.yml
+    pipeline_file: pipeline_2.yml
