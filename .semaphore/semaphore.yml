@@ -13,3 +13,6 @@ blocks:
             - sem-version java 11
             - checkout
             - gradle build
+promotions:
+  - name: Deploy to Heroku
+    pipeline_file: heroku.yml
